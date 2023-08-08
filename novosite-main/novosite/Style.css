@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(180, 219, 128);
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+    font-style: bold;
+}
+
+.logoescola {
+    width: 30%;
+}
+
+.meio{
+    justify-content: space-around;
+    Display:flex;
+}
+
+.topico{
+    margin-right: 10cm;
+    
+}
+
+.estudantes {
+     display: flex; /* display flexivel */
+     flex-wrap: wrap; /* colocar itens em sequencia ate nao caber mais*/
+}
+
+.item {
+    margin-top: 30px; /* Espaço superior de 10 pixels */
+    margin-bottom: 30px; /* Espaço inferior de 10- pixels */ 
+    width: 300px;
+}
+
+.item img{
+ width: 200px;
+ height: 200px;
+}
